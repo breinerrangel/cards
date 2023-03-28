@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.icono{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+   
+   
+}
+.box-cards{
+    
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+   ;
+}
+.card{
+    
+    width: 16%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color:darkgray;
+    border-radius: 15px;
+    color: white;
+}
+.card h3{
+    text-align: center;
+    
+    font-family: 'Raleway', sans-serif;
+    
+   
+    
+    
+}
+.card div{
+    height: 200px;
+    
+}
+.card p{
+    height: 150px;
+    ;
+    overflow: auto;
+    text-align: center;
+}
+.card button{
+   
+    padding: 10px;
+    width: 150px;
+    position: absolute;
+    bottom: 5px;
+    left: 73px;
+    background-color: brown;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    font-size: 18px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.box-comentarios{
+    border: 1px solid;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+ 
+}
+.body{
+    border: 1px solid;
+    width: 20%;
+    height: 20%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    overflow: auto;
+    text-align: center;
+}
+.comentatio{
+    border: 1px solid;
+    width: 25%;
+    height: 25%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
